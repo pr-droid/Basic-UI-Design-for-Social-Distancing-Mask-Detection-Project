@@ -1,0 +1,123 @@
+* {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+body {
+    /* background-image: url("static/cov7.jpg"); */
+    background-repeat: no-repeat;
+    background-size: cover, contain;
+    background-position: center;
+    /* Center the image */
+    max-width: 100vw;
+    height: 100vh;
+}
+
+.navbar {
+    box-shadow: 0px -5px 8px 3px #66635a;
+    color: #03045e;
+}
+
+.navbar-light .navbar-brand {
+    color: #03045e;
+    font-size: 1.8rem;
+    padding: 10px 10px;
+}
+
+.navbar-light .navbar-brand:hover {
+    color: #03045e;
+}
+
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: #03045e;
+}
+
+.navbar-light .navbar-nav .active>.nav-link:hover,
+.navbar-light .navbar-nav .nav-link.active:hover,
+.navbar-light .navbar-nav .nav-link.show:hover,
+.navbar-light .navbar-nav .show>.nav-link:hover {
+    color: #03045e;
+    /* font-size: 1.9rem; */
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #03045e;
+    font-size: 1.2rem;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #03045e;
+    font-size: 1.2rem;
+}
+
+.btn-outline-success {
+    color: #03045e;
+    border-color: #ffffff;
+}
+
+.covidMenu {
+    /* background-color: #ffffff; */
+    width: 100%;
+    height: 60vh;
+    margin: 50px 0px;
+    border-radius: 10px;
+    /* box-shadow: -2px 2px 7px #66635a; */
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-right: 100px;
+}
+
+.covid-heading {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 10px;
+    font-size: 70px;
+    color: #0c416c;
+}
+
+.covid-upload {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+input[type=file]::file-selector-button {
+    border: 1px solid rgba( 255, 255, 255, 0.18);
+    box-shadow: inset 1px 1px 16px 0 rgba(0, 0, 0, 0.2), inset -1px -1px 16px 0 rgba(255, 255, 255, 1);
+    padding: 5px 15px;
+    border-radius: 10px;
+    transition: 1s;
+    height: 35px;
+    width: 50%;
+    color: gray;
+    cursor: pointer;
+}
+
+.covidMenu img {
+    border-radius: 10px;
+    width: 100%;
+    height: 60vh;
+}
+
+.covid-form {
+    padding: 20px 0px;
+}
+
+input[type=file] {
+    margin: 20px 0px;
+}
+
+.btn-primary {
+    background-color: #0c416c;
+}
+
+.covid-subheading {
+    color: #0c416c;
+    margin: 10px 10px;
+}

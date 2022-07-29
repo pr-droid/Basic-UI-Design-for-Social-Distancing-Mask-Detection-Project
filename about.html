@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Medilab Bootstrap Template - Index</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/140019402-af84507f-64c5-49de-b327-e9ef863ee0e5.png" rel="icon">
+  <link href="assets/img/140019402-af84507f-64c5-49de-b327-e9ef863ee0e5.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+<link href="assets/css/responsive.css" rel="stylesheet">
+ 
+<style>
+    
+</style>
+</head>
+
+
+<body id="body">
+    <header id="header" class="fixed-top">
+        <div class="container d-flex align-items-center">
+    
+          <h1 class="logo me-auto"><a href="index.html">FMSDD</a></h1>
+          <!-- Uncomment below if you prefer to use an image logo -->
+          <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+    
+          <nav id="navbar" class="navbar order-last order-lg-0">
+            <ul>
+              <li><a class="nav-link scrollto " href="./index.html">Home</a></li>
+              
+              
+              
+              <li class="dropdown"><a href="#"><span>Services</span> <i class="bi bi-chevron-down"></i></a>
+                <ul>
+                  <li><a href="./social.html">Monitoring Social Distancing</a></li>
+                  
+                  <li><a href="./mask.html">Face Mask detection</a></li>
+                  <li><a href="./both.html">Monitoring Social Distancing & Face Mask detection</a></li>
+                  
+                </ul>
+              </li>
+              <li><a class="nav-link scrollto active" href="#">About</a></li>
+              
+            </ul>
+            
+            
+          </nav><!-- .navbar -->
+    
+          
+        </div>
+      </header><!-- End Header -->
+      <h1 class="p-2 fw-bold text-center">Problem Statement</h1>
+      <h2 class="px-3">#AI-ML #imageProcessing
+        Adhering to Covid norms with Artificial Intelligence (MC02)</h2>
+      <p class="about-para p-4">
+        1. Monitoring Social Distancing
+        With COVID-19 spreading universally, it is prominent to maintain social distancing while travelling
+        in public places. Here image processing can be a game-changer. By taking input from CCTV
+        Cameras and analyzing one frame at a time we will achieve the task at hand.
+        
+        Firstly, we use morphological operations and detection techniques to detect pedestrians in a
+        frame. Next, we draw a bounding box surrounding each pedestrian. After which, we calculate the
+        distance of one bounding box enclosing a pedestrian to its adjacent bounding boxes. Next, we
+        decide a threshold for the distance between the bounding boxes and then based on their distance
+        we categorize the pedestrians in the frame as red, yellow, or green.
+        The red bounding box would mean people in the frame are very close together and therefore at
+        maximum risk. The yellow box would mean that the people are at a considerable distance and the
+        risk is medium. The green boxes would mean people are following the norms and they are safe.
+        Integrating this system with an alerting mechanism (Loudspeakers)could be a great way to alert
+        the pedestrians violating the COVID-19 norms!
+        <br><br>
+        2. Mask Detection
+        Nowadays, wearing masks have been mandatory since the pandemic was discovered. As social
+        distancing, mask detection is equally important to prevent any further surge in COVID cases. To
+        detect mask. we need to first detect the human face. That can be achieved by identifying the
+        facial landmarks such as eyes nose mouth etc. After detecting faces, we need to build an
+        algorithm that can distinguish a face with a mask and a face without a mask.
+        This calls for the need for a deep learning model. Training a deep learning model on datasets
+        comprising of both mask and non-mask images. Once the model is trained it will be able to
+        successfully identify mask and no-mask people. Using this, we can alert pedestrians to wear
+        masks whenever they step out of their house.
+        
+        
+      </p>
+    
+</body>
+</html>

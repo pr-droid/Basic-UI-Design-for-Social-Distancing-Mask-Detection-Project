@@ -1,0 +1,21 @@
+@media screen and (min-width: 371px) and (max-width:796px){
+ 
+.container3{
+justify-content: unset;
+
+}
+
+#mask-container{
+    margin: 20px 26px;
+}
+
+#navbar .dropdown ul {
+   
+    left: -193px;
+}
+
+.about-para{
+    padding: 15px;
+}
+    
+}
